@@ -59,7 +59,8 @@
     "scripts": {
         "start-pc": "REACT_ENTRY_APP=pc node scripts/start.js",
         "start-mobile": "REACT_ENTRY_APP=mobile node scripts/start.js",
-        "build": "node scripts/build.js",
+        "build-pc": "REACT_ENTRY_APP=pc node scripts/build.js",
+        "build-mobile": "REACT_ENTRY_APP=mobile node scripts/build.js",
         "test": "node scripts/test.js"
     },
     "eslintConfig": {
